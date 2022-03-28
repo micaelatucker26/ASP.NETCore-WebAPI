@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micae\\Source\\Repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj": {}
+    "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micae\\Source\\Repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj": {
+    "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micae\\Source\\Repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj",
+        "projectUniqueName": "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj",
         "projectName": "MarketAPI",
-        "projectPath": "C:\\Users\\micae\\Source\\Repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj",
+        "projectPath": "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj",
         "packagesPath": "C:\\Users\\micae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micae\\Source\\Repos\\ASP.NETCore-WebAPI\\MarketAPI\\obj\\",
+        "outputPath": "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
