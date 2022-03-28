@@ -9,6 +9,7 @@ namespace MarketAPI.Repository
         IEnumerable<Item> GetAll();
         void Update(int id);
         void Delete(int id);
+        SubCategory GetSubcategory(Item item);
 
     }
 }

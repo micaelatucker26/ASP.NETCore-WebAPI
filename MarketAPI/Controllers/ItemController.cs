@@ -56,5 +56,14 @@ namespace MarketAPI.Controllers
         {
             _unitOfWork.Item.Delete(id);
         }
+
+        // GET api/items/{item}/subcategorybyitem
+        [HttpGet("{item}")]
+        public SubCategory SubCategoryByItem(Item item)
+        {
+            SubCategory subCategory = new SubCategory();
+            subCategory = _unitOfWork.Item.GetSubcategory(item);
+            return subCategory;
+        }
     }
 }
