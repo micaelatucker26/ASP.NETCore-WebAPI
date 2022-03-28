@@ -18,32 +18,38 @@ namespace MarketAPI.Repository
         public Item Add(Item item)
         {
             Item newItem = new Item();
-            newItem = _dataAccess.SaveNewObject<Item>(item);
+           // newItem = _dataAccess.SaveNewObject<Item>(item);
             return newItem;
         }
 
         public Item GetByID(int id)
         {
             Item item = new Item();
-            item = _dataAccess.LoadObject<Item>(id);
+            //item = _dataAccess.LoadObject<Item>(id);
             return item;
         }
         public IEnumerable<Item> GetAll()
         {
             IEnumerable<Item> items = new List<Item>();
-            items = _dataAccess.LoadObjects<Item>();
+            //items = _dataAccess.LoadObjects<Item>();
             return items;
         }
 
         
         public void Update(int id)
         {
-            _dataAccess.SaveObject<Item>(id);
+            //_dataAccess.SaveObject<Item>(id);
         }
 
         public void Delete(int id)
         {
-            _dataAccess.DeleteObject<Item>(id);
+            //_dataAccess.DeleteObject<Item>(id);
+        }
+
+        public SubCategory GetSubcategory(Item item)
+        {
+            SubCategory subcategory = new SubCategory();
+            return subcategory;
         }
     }
 }
