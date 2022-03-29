@@ -58,12 +58,29 @@ namespace MarketAPI.Controllers
         }
 
         // GET api/items/{item}/subcategorybyitem
-        [HttpGet("{item}")]
+        [HttpGet]
         public SubCategory SubCategoryByItem(Item item)
         {
             SubCategory subCategory = new SubCategory();
-            subCategory = _unitOfWork.Item.GetSubcategory(item);
+            int subcategoryID = item.SubCategoryID;
+            subCategory = _unitOfWork.Item.GetSubcategory(subcategoryID);
             return subCategory;
+        }
+
+        //GET api/items/{item}/categorybyitem
+        [HttpGet]
+        public Category CategoryByItem(Item item)
+        {
+            Category category = new Category();
+            int id = item.SubCategoryID;
+            SubCategory subCategory = new SubCategory();
+            subCategory = _unitOfWork.Item.GetSubcategory(id);
+            int categoryID = subCategory.CategoryID;
+            // call a method from the category controller to get a category by its id
+            // and pass in "categoryID" to get the specific category you found
+
+            // store that category in "category"
+            return category;
         }
     }
 }
