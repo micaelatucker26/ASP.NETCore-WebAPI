@@ -45,13 +45,6 @@ namespace MarketAPI.Repository
         {
             //_dataAccess.DeleteObject<Item>(id);
         }
-
-        public SubCategory GetSubcategory(int id)
-        {
-            // call the method in the subcategory controller to get a subcategory by its id
-            // and pass the id from this method, to store the specific subcategory
-            return null;
-        }
     }
 }
 
