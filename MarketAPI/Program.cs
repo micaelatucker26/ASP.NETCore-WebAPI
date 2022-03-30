@@ -1,4 +1,22 @@
+using Serilog;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Add logging config 
+var loggingConfig = new ConfigurationBuilder()
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile(
+        path: "appsettings.json", 
+        optional: false, 
+        reloadOnChange: true //Allows for dynamic reloading on setting change
+    )
+    .Build();
+
+//Adding logging 
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(loggingConfig, sectionName: "Serilog")
+    .CreateLogger();
 
 // Add services to the container.
 builder.Services.AddControllers();
