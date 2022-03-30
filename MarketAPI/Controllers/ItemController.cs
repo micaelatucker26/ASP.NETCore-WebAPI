@@ -62,7 +62,7 @@ namespace MarketAPI.Controllers
         public SubCategory SubCategoryByItem(Item item)
         {
             SubCategory subCategory = new SubCategory();
-            int subcategoryID = item.SubCategoryID;
+            SubCategory subcategoryID = item.SubCategory;
 
             // call a method from the subcategory controller to get a subcategory by its id
             // and pass in "subcategoryID" to get the specific category you found
@@ -77,7 +77,7 @@ namespace MarketAPI.Controllers
         public Category CategoryByItem(Item item)
         {
             Category category = new Category();
-            int subcategoryID = item.SubCategoryID;
+            SubCategory subcategoryID = item.SubCategory;
             SubCategory subCategory = new SubCategory();
 
             // from the GetSubcategory method in the SubCategoryController, call this method here
@@ -85,7 +85,7 @@ namespace MarketAPI.Controllers
 
             // store that subcategory in "subCategory"
 
-            int categoryID = subCategory.CategoryID;
+            Category categoryID = subCategory.Category;
 
             // call a method from the category controller to get a category by its id
             // and pass in "categoryID" to get the specific category you found

@@ -1,7 +1,7 @@
 ﻿namespace MarketAPI.ModelException
 {
     /// <summary>
-    /// Exception for an Item's price. Thrown if the the price is not valid.
+    /// Exception for an Item's pric; Thrown if the the price is not valid.
     /// </summary>
     public class ItemPriceException : Exception
     {

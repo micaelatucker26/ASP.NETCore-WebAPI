@@ -9,7 +9,7 @@
         public int Quantity { get; set; }
         public double Price { get; set; }
         public string ImageURL { get; set; }
-        public Subcategory SubCategory { get; set; }
+        public SubCategory SubCategory { get; set; }
         #endregion
 
         /// <summary>

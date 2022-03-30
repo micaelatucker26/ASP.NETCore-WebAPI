@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj": {}
+    "C:\\Users\\Justin\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj": {
+    "C:\\Users\\Justin\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj",
         "projectName": "MarketAPI",
-        "projectPath": "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj",
-        "packagesPath": "C:\\Users\\micae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micae\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\obj\\",
+        "projectPath": "C:\\Users\\Justin\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\MarketAPI.csproj",
+        "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin\\source\\repos\\ASP.NETCore-WebAPI\\MarketAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\micae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -70,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
