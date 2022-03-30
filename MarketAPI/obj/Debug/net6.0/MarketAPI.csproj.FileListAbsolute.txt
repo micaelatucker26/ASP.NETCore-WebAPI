@@ -31,3 +31,13 @@ C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\obj\Debug\net6.0\refint
 C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\obj\Debug\net6.0\MarketAPI.pdb
 C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\obj\Debug\net6.0\MarketAPI.genruntimeconfig.cache
 C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\obj\Debug\net6.0\ref\MarketAPI.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\micae\source\repos\ASP.NETCore-WebAPI\MarketAPI\bin\Debug\net6.0\Serilog.Sinks.File.dll
