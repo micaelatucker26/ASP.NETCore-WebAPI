@@ -3,7 +3,7 @@
     /// <summary>
     /// Exception for an Item's quantity; thrown if the quantity is invalid
     /// </summary>
-    public class ItemQuantityException : Exception
+    public class ItemQuantityException : ArgumentException
     {
         private int quantity;
         public int Quantity { get { return quantity; } }
