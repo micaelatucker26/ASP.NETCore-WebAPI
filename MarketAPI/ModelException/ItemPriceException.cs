@@ -3,7 +3,7 @@
     /// <summary>
     /// Exception for an Item's pric; Thrown if the the price is not valid.
     /// </summary>
-    public class ItemPriceException : Exception
+    public class ItemPriceException : ArgumentException
     {
         private double price;
         public double Price { get { return price; } }
