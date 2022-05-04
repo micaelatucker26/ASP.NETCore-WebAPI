@@ -64,7 +64,6 @@ project.fragment.lock.json
 artifacts/
 project.nuget.cache
 project.assets.json
-/.assets.cache
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -364,3 +363,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Folders
+Debug/
